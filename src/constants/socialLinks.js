@@ -2,37 +2,38 @@ import React from "react"
 import {
   FaFacebookSquare,
   FaLinkedin,
-  FaDribbbleSquare,
-  FaBehanceSquare,
   FaTwitterSquare,
+  FaGithubSquare,
+  FaInstagramSquare
 } from "react-icons/fa"
 
 const data = [
   {
     id: 1,
-    icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-    url: "https://www.twitter.com",
+    icon: <FaLinkedin className="social-icon"></FaLinkedin>,
+    url: "https://www.linkedin.com/in/ahmed-fouad-162091134/",
   },
   {
     id: 2,
-    icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.twitter.com",
+    icon: <FaGithubSquare className="social-icon"></FaGithubSquare>,
+    url: "https://github.com/FoushWare",
   },
   {
     id: 3,
-    icon: <FaDribbbleSquare className="social-icon"></FaDribbbleSquare>,
-    url: "https://www.twitter.com",
+    icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
+    url: "https://twitter.com/FoushWare",
   },
   {
     id: 4,
-    icon: <FaBehanceSquare className="social-icon"></FaBehanceSquare>,
-    url: "https://www.twitter.com",
+    icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
+    url: "https://www.facebook.com/foush60",
   },
   {
     id: 5,
-    icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
+    icon: <FaInstagramSquare className="social-icon"></FaInstagramSquare>,
     url: "https://www.twitter.com",
   },
+
 ]
 const links = data.map(link => {
   return (
