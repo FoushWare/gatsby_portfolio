@@ -677,7 +677,7 @@ Projects
   font-size: 1.5rem;
 }
 .project-desc {
-  word-spacing: 15px;
+  /* word-spacing: 15px; */
   color: var(--clr-grey-3);
 }
 .project-stack {
@@ -694,6 +694,7 @@ Projects
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 0.85rem;
+  margin-top: 7px;
 }
 .about-stack span {
   margin-top: 0.5rem;
