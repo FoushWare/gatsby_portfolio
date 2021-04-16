@@ -18,7 +18,7 @@ const Services = () => {
             <div className="underline"></div>
             <p>{text}</p>
             <ul style={{ textAlign: "left" }}>
-              {skills.map(skill => <li><AiFillCheckCircle />&nbsp;&nbsp;&nbsp;   {skill}</li>)}
+              {skills.map(skill => <li key={skill}><AiFillCheckCircle />&nbsp;&nbsp;&nbsp;   {skill}</li>)}
             </ul>
           </article>)
         })}
