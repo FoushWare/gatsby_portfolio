@@ -22,6 +22,7 @@ export const query = graphql`
         slug
         content
         desc
+        category
         date(formatString: "MMM Do,YYYY")
         id
         title

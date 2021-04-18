@@ -16,7 +16,7 @@ const Projects = ({ projects, title, showLink }) => {
       {
         showLink && (
           <Link to="/projects" className="btn center-btn">
-            Projects
+            All Projects
           </Link>
         )
       }

@@ -46,6 +46,7 @@ export const query = graphql`
         date(formatString: "MMM Do,YYYY")
         id
         title
+        category
         image {
       childImageSharp {
       fluid {

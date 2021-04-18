@@ -10,17 +10,25 @@ const Blog = ({ id, title, image, date, category, slug, desc }) => {
           <Image fluid={image.childImageSharp.fluid} className="blog-img" />
         )}
         <div className="blog-card">
-          <h4>{title}</h4>
-          <p>{desc}</p>
+          <h4>{title || "default title"}</h4>
+          <p>{desc || "default description"}</p>
           <div className="blog-footer">
-            <p>{category}</p>
-            <p>{date}</p>
+            <p>{category || "Default category"}</p>
+            <p>{date || "Default date"}</p>
           </div>
         </div>
       </article>
     </Link>
   )
 }
-Blog.propTypes = {}
+Blog.propTypes = {
+  id: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired,
+  desc: PropTypes.string.isRequired,
+  slug: PropTypes.string.isRequired,
+  image: PropTypes.object.isRequired,
+}
 
 export default Blog
