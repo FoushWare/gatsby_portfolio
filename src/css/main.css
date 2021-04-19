@@ -900,6 +900,9 @@ About Page
   margin-bottom: 2rem;
   height: 25rem;
 }
+.about-img img {
+  object-fit: contain !important;
+}
 .about-text .section-title {
   margin-bottom: 2rem;
   text-align: left;
