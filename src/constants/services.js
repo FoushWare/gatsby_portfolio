@@ -14,7 +14,7 @@ export default [
     id: 2,
     icon: <FaDatabase className="service-icon" />,
     title: "BackEnd",
-    text: `Our back-end development services are not just about making a server, application, and database communicate with each other.It's about building a product that works seamlessly, meet market needs and creating an enjoyable user experience that earns your loyalty.`,
+    text: `My back-end development services are not just about making a server, application, and database communicate with each other.It's about building a product that works seamlessly, meet market needs and creating an enjoyable user experience that earns your loyalty.`,
     skills: [
       "Nodejs", "PHP", "PostgressSQL/MySQL"
     ]

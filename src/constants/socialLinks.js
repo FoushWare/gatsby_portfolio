@@ -31,7 +31,7 @@ const data = [
   {
     id: 5,
     icon: <FaInstagramSquare className="social-icon"></FaInstagramSquare>,
-    url: "https://www.twitter.com",
+    url: "https://www.instagram.com/foush60",
   },
 
 ]
