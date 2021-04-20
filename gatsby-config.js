@@ -3,15 +3,15 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
-
+require('dotenv').config();
 module.exports = {
   siteMetadata: {
-    title: "WebDev Portfolio",
-    description: "This is WebDev Portfolio Site",
-    author: "@webdev",
-    twitterUsername: "@john_smilga",
+    title: "Foushware Portfolio",
+    description: "This is Ahmed Fouad Portfolio Site",
+    author: "@foushware",
+    twitterUsername: "@FoushWare",
     image: "/twitter-img.png",
-    siteUrl: "https://testing-strapi-gatsby-build.netlify.app",
+    siteUrl: "https://foushware.netlify.app",
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -28,7 +28,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        //Development http://localhost:1337
+        // Development http://localhost:1337
         // apiURL: `http://localhost:1337`,
         //Production
 
