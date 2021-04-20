@@ -31,7 +31,8 @@ module.exports = {
         //Development http://localhost:1337
         // apiURL: `http://localhost:1337`,
         //Production
-        apiURL: `.env.${GATSBY_API_URL}`,
+
+        apiURL: process.env.GATSBY_API_URL,
         queryLimit: 1000, // Default to 100
         //   contentTypes : `jobs`, `projects`, `blogs`,
         //   singleTypes : `about`
